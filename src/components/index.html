@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Stencil Lib</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <!-- connect to domain of font files -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- async CSS, plus increased loading priority with fetchpriority="high" -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lato&display=swap"
+      media="print"
+      onload="this.media='all'"
+      fetchpriority="high"
+    />
+    <script type="module" src="./build/webdriver-bidi.esm.js"></script>
+  </head>
+  <body>
+    <inner-one></inner-one>
+  </body>
+</html>
